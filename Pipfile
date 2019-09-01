@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+python-bitbankcc = {git = "https://github.com/bitbankinc/python-bitbankcc.git"}
+requests = "*"
+numpy = "*"
+pandas = "*"
+ta-lib = "*"
+backtesting = "*"
+
+[packages]
+
+[requires]
+python_version = "3.7"
+
+[scripts]
+start = "python main.py"
